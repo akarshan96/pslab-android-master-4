@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="7dp"
+        android:id="@+id/tv_name"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold" />
+
+    <com.viveksb007.pslab.CustomSeekBar.FloatSeekBar
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar_value"
+        android:layout_width="280dp"
+        android:layout_below="@+id/tv_name"
+        android:layout_alignParentStart="true"
+        android:thumb="@drawable/red_scrubber_control"
+        android:progressDrawable="@drawable/red_scrubber_progress"
+        android:layout_marginStart="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/seekBar_value"
+        android:id="@+id/tv_start"
+        android:layout_below="@+id/seekBar_value"
+        android:layout_marginStart="2dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_end"
+        android:layout_below="@+id/seekBar_value"
+        android:layout_alignEnd="@+id/seekBar_value"
+        android:layout_marginEnd="2dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_current_value"
+        android:textSize="13sp"
+        android:background="@drawable/linear_layout_background"
+        android:gravity="center_vertical|center"
+        android:layout_below="@+id/seekBar_value"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp" />
+
+</RelativeLayout>

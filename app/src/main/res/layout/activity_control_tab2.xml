@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_control_tab2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.viveksb007.pslab.applications.ControlTabActivity2">
+
+    <Button
+        android:text="Read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_read"
+        android:backgroundTint="#ffb2b2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tv_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:text="Resistance"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:textColor="@android:color/black"
+        android:layout_width="100dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="normal|bold"
+        android:layout_alignBaseline="@+id/button_read"
+        android:layout_alignBottom="@+id/button_read"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView28" />
+
+    <TextView
+        android:text="Capacitance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_read"
+        android:layout_alignStart="@+id/tv_name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:backgroundTint="#ffb2b2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="2dp"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignStart="@+id/button_read"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:text="Voltmeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/button_read2"
+        android:layout_alignBottom="@+id/button_read2"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:text="Read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_read2"
+        android:backgroundTint="#ffb2b2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button_read"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:text="Frequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignStart="@+id/textView5" />
+
+    <Button
+        android:text="READ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/button4"
+        android:backgroundTint="#ffb2b2"
+        android:layout_below="@+id/button_read2"
+        android:layout_alignStart="@+id/button_read2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_alignStart="@+id/textView22"
+        android:id="@+id/textView27" />
+
+    <TextView
+        android:text="Count Pulses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView28"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="READ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="5dp"
+        android:id="@+id/button5"
+        android:backgroundTint="#ffb2b2"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinner5"
+        android:layout_alignStart="@+id/tv_result"
+        android:id="@+id/textView29" />
+
+    <Button
+        android:text="RESET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner5"
+        android:layout_alignStart="@+id/button5"
+        android:id="@+id/button6"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:layout_weight="0.10"
+        android:textColor="?android:attr/colorControlNormal"
+        android:textColorLink="@android:color/darker_gray"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_alignBaseline="@+id/button_read"
+        android:layout_alignBottom="@+id/button_read"
+        android:layout_toEndOf="@+id/spinner4" />
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignStart="@+id/tv_result" />
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22"
+        android:layout_alignBaseline="@+id/button_read2"
+        android:layout_alignBottom="@+id/button_read2"
+        android:layout_alignStart="@+id/textView4" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_toStartOf="@+id/textView22" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_toEndOf="@+id/button_read2" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner5"
+        android:layout_alignTop="@+id/textView28"
+        android:layout_alignStart="@+id/spinner4" />
+
+</RelativeLayout>

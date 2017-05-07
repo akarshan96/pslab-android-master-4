@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="High Frequency"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:textColor="@android:color/black"
+        android:layout_width="100dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_read"
+        android:backgroundTint="#ffb2b2"
+        android:layout_marginLeft="2dp"
+        android:layout_margin="2dp" />
+
+    <Spinner
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_channel"
+        android:layout_margin="2dp"
+        android:gravity="center_horizontal|start" />
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:layout_weight="0.10"
+        android:layout_margin="2dp"
+        android:textColor="?android:attr/colorControlNormal"
+        android:textColorLink="@android:color/darker_gray" />
+
+</LinearLayout>
